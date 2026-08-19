@@ -1,9 +1,36 @@
-# PENETRATION TESTING REPORT
+<div align="center">
 
-## FOOTPRINTING & RECONNAISSANCE PHASE
+<h1>PENETRATION TESTING REPORT</h1>
 
-### W2-PM1 | CYBERSECURITY | NETWORKWALKS
+<h2>FOOTPRINTING, PASSIVE RECONNAISSANCE & NETWORK SCANNING</h2>
 
+<h3>W2-PM1 | W2-PM4 | W2-PM5 | CYBERSECURITY | NETWORKWALKS</h3>
+<h3>W2-PM-FINAL | CYBERSECURITY | NETWORKWALKS</h3>
+
+<br>
+
+<img src="https://img.shields.io/badge/Status-Completed-brightgreen">
+<img src="https://img.shields.io/badge/Program-Networkwalks-0099cc">
+<img src="https://img.shields.io/badge/Week-02-blue">
+
+<br>
+
+<img src="https://img.shields.io/badge/Modules-3-blue">
+<img src="https://img.shields.io/badge/Type-Pentest%20Report-red">
+
+<br>
+
+<img src="https://img.shields.io/badge/Tool-Kali%20Linux-blue">
+<img src="https://img.shields.io/badge/Tool-theHarvester-orange">
+<img src="https://img.shields.io/badge/Tool-Zenmap-yellow">
+
+<br>
+
+<img src="https://img.shields.io/badge/Format-Markdown-lightgrey">
+<img src="https://img.shields.io/badge/Platform-GitHub-black">
+<img src="https://img.shields.io/badge/License-Educational%20Use%20Only-purple">
+
+</div>
 <table>
   <tr>
     <td align="center"><b>Pentester Name<br>(Cybersecurity Professional)</b></td>
@@ -44,13 +71,15 @@
   </tr>
 
   <tr>
-    <td align="center"><b>Phases Covered</b></td>
-    <td>
-      <b>Phase 1:</b> Reconnaissance & Footprinting<br>
-      <b>Phase 2:</b> Scanning & Network Discovery<br>
-      <b>Phase 3-5:</b> In Progress
-    </td>
-  </tr>
+  <td align="center"><b>Phases Covered</b></td>
+  <td>
+    <b>Phase 1:</b> Reconnaissance & Footprinting – W2-PM1<br>
+    <b>Phase 2:</b> Passive OSINT & Information Gathering with theHarvester – W2-PM4<br>
+    <b>Phase 3:</b> Email, Host & Subdomain Harvesting – W2-PM4<br>
+    <b>Phase 4:</b> Network Discovery & Scanning with Zenmap – W2-PM5<br>
+    <b>Phase 5:</b> In Progress
+  </td>
+</tr>
 </table>
 
 ## 1. Liability Disclaimer
