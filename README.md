@@ -7,7 +7,7 @@
 <table>
   <tr>
     <td align="center"><b>Pentester Name<br>(Cybersecurity Professional)</b></td>
-    <td><b>Aysən Əliquliyeva</b></td>
+    <td><b>Aysan Aliguliyeva</b></td>
   </tr>
 
   <tr>
@@ -22,24 +22,33 @@
 
   <tr>
     <td align="center"><b>Modules Completed</b></td>
-    <td>W2-PM1 (Multiple Kali Tools)</td>
+    <td>
+      W2-PM1 – Footprinting & Reconnaissance with Multiple Kali Tools<br>
+      W2-PM4 – Footprinting & Reconnaissance with theHarvester<br>
+      W2-PM5 – Network Scanning with Zenmap
+    </td>
   </tr>
 
   <tr>
     <td align="center"><b>Client/Target</b></td>
-    <td>Networkwalks (secured written permission already)</td>
+    <td>
+      1. networkwalks.com – Authorized educational target<br>
+      2. microsoft.com – Passive reconnaissance using public sources<br>
+      3. My own local LAN network – 192.168.1.0/24
+    </td>
   </tr>
 
   <tr>
-    <td align="center"><b>Permission secured from client?</b></td>
-    <td>Yes</td>
+    <td align="center"><b>Permission secured?</b></td>
+    <td>Yes – All activities were performed within an authorized educational scope or on my own local network.</td>
   </tr>
 
   <tr>
     <td align="center"><b>Phases Covered</b></td>
     <td>
       <b>Phase 1:</b> Reconnaissance & Footprinting<br>
-      <b>Phase 2-5:</b> In Progress
+      <b>Phase 2:</b> Scanning & Network Discovery<br>
+      <b>Phase 3-5:</b> In Progress
     </td>
   </tr>
 </table>
@@ -122,7 +131,45 @@ These activities demonstrated how different reconnaissance tools can be combined
 
 ---
 
-### 4.2 Network Scanning with Zenmap
+### 4.2 Footprinting & Reconnaissance with theHarvester
+
+I performed passive reconnaissance against `microsoft.com` using **theHarvester** in Kali Linux.
+
+The objective of this activity was to gather publicly available information related to the target organization from external data sources.
+
+For the first task, I used **Baidu** as the data source and set the maximum number of results to 1000.
+
+The following command was executed:
+
+`theHarvester -d microsoft.com -l 1000 -b baidu`
+
+In this command:
+
+- `-d` specifies the target domain.
+- `-l` specifies the maximum number of results.
+- `-b` specifies the data source.
+
+For the second task, I used all supported sources and limited the maximum number of results to 50.
+
+The following command was executed:
+
+`theHarvester -d microsoft.com -l 50 -b all`
+
+theHarvester can collect publicly available information related to a target organization, including:
+
+- Email addresses
+- Subdomains
+- Hosts
+- Employee-related information
+- Other publicly exposed infrastructure information
+
+The activity demonstrated how **passive reconnaissance** can be used to gather information from public sources without attempting to gain unauthorized access to the target systems.
+
+The collected information can help cybersecurity professionals understand an organization's publicly exposed information and evaluate its external attack surface.
+
+---
+
+### 4.3 Network Scanning with Zenmap
 
 For the network scanning activity, I used **Zenmap**, the graphical interface for Nmap, to perform host discovery on my own local LAN network.
 
@@ -166,42 +213,6 @@ After completing the scan, I opened the **Topology** section in Zenmap to visual
 This activity demonstrated how network scanning can be used to identify active hosts, IP addresses, MAC addresses, and the basic topology of a local network.
 
 ---
-
-### 4.3 Footprinting & Reconnaissance with theHarvester
-
-I performed passive reconnaissance against `microsoft.com` using **theHarvester** in Kali Linux.
-
-The objective of this activity was to gather publicly available information related to the target organization from external data sources.
-
-For the first task, I used **Baidu** as the data source and set the maximum number of results to 1000.
-
-The following command was executed:
-
-`theHarvester -d microsoft.com -l 1000 -b baidu`
-
-In this command:
-
-- `-d` specifies the target domain.
-- `-l` specifies the maximum number of results.
-- `-b` specifies the data source.
-
-For the second task, I used all supported sources and limited the maximum number of results to 50.
-
-The following command was executed:
-
-`theHarvester -d microsoft.com -l 50 -b all`
-
-theHarvester can collect publicly available information related to a target organization, including:
-
-- Email addresses
-- Subdomains
-- Hosts
-- Employee-related information
-- Other publicly exposed infrastructure information
-
-The activity demonstrated how **passive reconnaissance** can be used to gather information from public sources without attempting to gain unauthorized access to the target systems.
-
-The collected information can help cybersecurity professionals understand an organization's publicly exposed information and evaluate its external attack surface.
 
 ## 5. Risk Analysis / Impact
 
@@ -306,18 +317,7 @@ All activities were performed within an authorized educational scope, and no una
 ![DNSRecon Result](evidences/w2-pm1/Screenshot%202026-08-19%20163131.png)
 
 ---
-### 8.2 W2-PM5 – Network Scanning with Zenmap
-
-#### Live Host Discovery with Zenmap
-
-![Zenmap Ping Scan](./evidences/w2-pm5/Screenshot%202026-08-19%20184915.png)
-
-#### Network Topology
-
-![Zenmap Network Topology](./evidences/w2-pm5/Screenshot%202026-08-19%20185206.png)
-
----
-### 8.3 W2-PM4 – Footprinting & Reconnaissance with theHarvester
+### 8.2 W2-PM4 – Footprinting & Reconnaissance with theHarvester
 
 #### theHarvester Usage and Available Options
 
@@ -330,3 +330,39 @@ All activities were performed within an authorized educational scope, and no una
 #### Passive Reconnaissance Using All Sources
 
 ![theHarvester All Sources](./evidences/w2-pm4/Screenshot%202026-08-19%20190454.png)
+
+---
+### 8.3 W2-PM5 – Network Scanning with Zenmap
+
+#### Live Host Discovery with Zenmap
+
+![Zenmap Ping Scan](./evidences/w2-pm5/Screenshot%202026-08-19%20184915.png)
+
+#### Network Topology
+
+![Zenmap Network Topology](./evidences/w2-pm5/Screenshot%202026-08-19%20185206.png)
+
+---
+
+---
+
+# -End-
+
+## 👤 Author
+
+**Aysan Aliguliyeva**  
+Cybersecurity Student | B082  
+Networkwalks Cybersecurity Program
+LinkedIn: https://www.linkedin.com/in/aysən-əliquliyeva96575a383?utm_source=share_via&utm_content=profile&utm_medium=member_android
+
+---
+
+## 📌 Project Information
+
+**Program Name:** Cybersecurity Program at Networkwalks  
+**Week:** 02  
+**Modules Completed:** W2-PM1 | W2-PM4 | W2-PM5  
+**Repository:** GitHub  
+**Project Area:** Footprinting, Reconnaissance & Network Scanning
+
+---
