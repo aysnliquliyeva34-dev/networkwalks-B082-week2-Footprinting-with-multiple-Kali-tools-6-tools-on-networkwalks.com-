@@ -310,9 +310,8 @@ All activities were performed within an authorized educational scope, and no una
 
 #### Live Host Discovery with Zenmap
 
-![Zenmap Ping Scan](evidences/w2-pm5/Screenshot%202026-08-19%20184915.png)
+![Zenmap Ping Scan](./evidences/w2-pm5/Screenshot%202026-08-19%20184915.png)
 
 #### Network Topology
 
-![Zenmap Network Topology](evidences/w2-pm5/Screenshot%202026-08-19%20185206.png)
-
+![Zenmap Network Topology](./evidences/w2-pm5/Screenshot%202026-08-19%20185206.png)
