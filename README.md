@@ -280,3 +280,27 @@ These exercises demonstrated that a significant amount of useful security inform
 I also learned the importance of documenting each step clearly, including the tools used, commands executed, results observed, potential risks, and recommended security improvements.
 
 All activities were performed within an authorized educational scope, and no unauthorized exploitation or access was attempted.
+
+## 8. Evidences Collected
+
+### 8.1 W2-PM1 – Footprinting & Reconnaissance
+
+#### WHOIS Domain Information
+
+![WHOIS Result](evidences/w2-pm1/Screenshot%202026-08-19%20161420.png)
+
+#### DNS Resolution with Nslookup
+
+![Nslookup Result](evidences/w2-pm1/Screenshot%202026-08-19%20161926.png)
+
+#### HTTP Response Headers with Curl
+
+![Curl Result](evidences/w2-pm1/Screenshot%202026-08-19%20162300.png)
+
+#### Web Application Firewall Detection
+
+![Wafw00f Result](evidences/w2-pm1/Screenshot%202026-08-19%20162817.png)
+
+#### DNS Enumeration
+
+![DNSRecon Result](evidences/w2-pm1/Screenshot%202026-08-19%20163131.png)
