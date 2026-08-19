@@ -315,3 +315,18 @@ All activities were performed within an authorized educational scope, and no una
 #### Network Topology
 
 ![Zenmap Network Topology](./evidences/w2-pm5/Screenshot%202026-08-19%20185206.png)
+
+---
+### 8.3 W2-PM4 – Footprinting & Reconnaissance with theHarvester
+
+#### theHarvester Usage and Available Options
+
+![theHarvester Usage](./evidences/w2-pm4/Screenshot%202026-08-19%20190055.png)
+
+#### Passive Reconnaissance Using Baidu
+
+![theHarvester Baidu Result](./evidences/w2-pm4/Screenshot%202026-08-19%20190234.png)
+
+#### Passive Reconnaissance Using All Sources
+
+![theHarvester All Sources](./evidences/w2-pm4/Screenshot%202026-08-19%20190454.png)
