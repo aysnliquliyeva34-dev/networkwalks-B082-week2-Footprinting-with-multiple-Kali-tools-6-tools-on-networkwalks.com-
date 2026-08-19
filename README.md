@@ -332,9 +332,3 @@ All activities were performed within an authorized educational scope, and no una
 #### Passive Reconnaissance Using All Sources
 
 ![theHarvester All Sources](evidences/w2-pm4/Screenshot%202026-08-19%20190454.png)
-
-![Wafw00f Result](evidences/w2-pm1/Screenshot%202026-08-19%20162817.png)
-
-#### DNS Enumeration
-
-![DNSRecon Result](evidences/w2-pm1/Screenshot%202026-08-19%20163131.png)
