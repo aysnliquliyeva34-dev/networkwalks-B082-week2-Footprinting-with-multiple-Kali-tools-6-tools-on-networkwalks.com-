@@ -306,16 +306,15 @@ All activities were performed within an authorized educational scope, and no una
 ![DNSRecon Result](evidences/w2-pm1/Screenshot%202026-08-19%20163131.png)
 
 ---
-
 ### 8.2 W2-PM5 – Network Scanning with Zenmap
 
 #### Live Host Discovery with Zenmap
 
-![Zenmap Ping Scan](evidences/w2-pm5/Screenshot%202026-08-19%20184915.png)
+![Zenmap Ping Scan](./evidences/w2-pm5/zenmap-scan.png)
 
 #### Network Topology
 
-![Zenmap Network Topology](evidences/w2-pm5/Screenshot%202026-08-19%20185206.png)
+![Zenmap Network Topology](./evidences/w2-pm5/zenmap-topology.png)
 
 ---
 
@@ -323,12 +322,12 @@ All activities were performed within an authorized educational scope, and no una
 
 #### theHarvester Usage and Available Options
 
-![theHarvester Usage](evidences/w2-pm4/Screenshot%202026-08-19%20190055.png)
+![theHarvester Usage](./evidences/w2-pm4/theharvester-help.png)
 
 #### Passive Reconnaissance Using Baidu
 
-![theHarvester Baidu Result](evidences/w2-pm4/Screenshot%202026-08-19%20190234.png)
+![theHarvester Baidu Result](./evidences/w2-pm4/theharvester-baidu.png)
 
 #### Passive Reconnaissance Using All Sources
 
-![theHarvester All Sources](evidences/w2-pm4/Screenshot%202026-08-19%20190454.png)
+![theHarvester All Sources](./evidences/w2-pm4/theharvester-all.png)
