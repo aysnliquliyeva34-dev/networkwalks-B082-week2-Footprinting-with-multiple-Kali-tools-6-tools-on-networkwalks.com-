@@ -33,7 +33,7 @@
 </div>
 <table>
   <tr>
-    <td align="center"><b>Pentester Name<br>(Cybersecurity Professional)</b></td>
+    <td align="center"><b>Pentester Name<br>(Cybersecurity Trainee)</b></td>
     <td><b>Aysan Aliguliyeva</b></td>
   </tr>
 
@@ -380,7 +380,7 @@ All activities were performed within an authorized educational scope, and no una
 ## 👤 Author
 
 **Aysan Aliguliyeva**  
-Cybersecurity Student | B082  
+Cybersecurity Trainee | B082  
 Networkwalks Cybersecurity Program
 LinkedIn: https://www.linkedin.com/in/aysən-əliquliyeva96575a383?utm_source=share_via&utm_content=profile&utm_medium=member_android
 
