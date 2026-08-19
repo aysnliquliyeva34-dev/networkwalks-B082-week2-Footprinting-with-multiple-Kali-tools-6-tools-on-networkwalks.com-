@@ -283,7 +283,7 @@ All activities were performed within an authorized educational scope, and no una
 
 ## 8. Evidences Collected
 
-### 8.1 W2-PM1 – Footprinting & Reconnaissance
+### 8.1 W2-PM1 – Footprinting & Reconnaissance with Multiple Kali Tools
 
 #### WHOIS Domain Information
 
@@ -297,7 +297,41 @@ All activities were performed within an authorized educational scope, and no una
 
 ![Curl Result](evidences/w2-pm1/Screenshot%202026-08-19%20162300.png)
 
-#### Web Application Firewall Detection
+#### Web Application Firewall Detection with Wafw00f
+
+![Wafw00f Result](evidences/w2-pm1/Screenshot%202026-08-19%20162817.png)
+
+#### DNS Enumeration with DNSRecon
+
+![DNSRecon Result](evidences/w2-pm1/Screenshot%202026-08-19%20163131.png)
+
+---
+
+### 8.2 W2-PM5 – Network Scanning with Zenmap
+
+#### Live Host Discovery with Zenmap
+
+![Zenmap Ping Scan](evidences/w2-pm5/Screenshot%202026-08-19%20184915.png)
+
+#### Network Topology
+
+![Zenmap Network Topology](evidences/w2-pm5/Screenshot%202026-08-19%20185206.png)
+
+---
+
+### 8.3 W2-PM4 – Footprinting & Reconnaissance with theHarvester
+
+#### theHarvester Usage and Available Options
+
+![theHarvester Usage](evidences/w2-pm4/Screenshot%202026-08-19%20190055.png)
+
+#### Passive Reconnaissance Using Baidu
+
+![theHarvester Baidu Result](evidences/w2-pm4/Screenshot%202026-08-19%20190234.png)
+
+#### Passive Reconnaissance Using All Sources
+
+![theHarvester All Sources](evidences/w2-pm4/Screenshot%202026-08-19%20190454.png)
 
 ![Wafw00f Result](evidences/w2-pm1/Screenshot%202026-08-19%20162817.png)
 
